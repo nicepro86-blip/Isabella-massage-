@@ -1,1 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Isabella Massage | Book Your Session</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background: #080808;
+    padding: 22px 15px;
+    text-align: center;
+    border-bottom: 2px solid #c9a45c;
+}
+
+.logo {
+    color: #d8b56d;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ddd;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.hero {
+    padding: 65px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #30251b, #111);
+}
+
+.hero h1 {
+    color: #e5c581;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 500px;
+    margin: 0 auto 25px;
+    color: #eee;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 25px;
+    background: #c9a45c;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px 18px;
+    max-width: 850px;
+    margin: auto;
+}
+
+h2 {
+    color: #d8b56d;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+    gap: 13px;
+}
+
+.service {
+    background: #202020;
+    border: 1px solid #4b3c24;
+    padding: 17px 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service h3 {
+    color: #e5c581;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.service p {
+    color: #eee;
+    font-size: 14px;
+}
+
+.booking {
+    background: #1b1b1b;
+    border: 1px solid #51432b;
+    padding: 22px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #e5c581;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    background: #fff;
+    color: #111;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.booking button {
+    width: 100%;
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+.notice {
+    background: #292318;
+    padding: 15px;
+    border-left: 4px solid #c9a45c;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.contact {
+    text-align: center;
+    background: #1b1b1b;
+    padding: 30px 15px;
+}
+
+.contact p {
+    margin: 8px;
+}
+
+footer {
+    text-align: center;
+    color: #aaa;
+    padding: 22px;
+    font-size: 13px;
+}
+
+@media (max-width: 450px) {
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    section {
+        padding: 30px 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ISABELLA MASSAGE</div>
+    <p>RELAX • RESTORE • RECHARGE</p>
+</header>
+
+<div class="hero">
+    <h1>Your Comfort.<br>Your Wellness.</h1>
+    <p>
+        Take time for yourself with a relaxing massage
+        experience tailored to your needs.
+    </p>
+    <a class="button" href="#booking">BOOK YOUR SESSION</a>
+</div>
+
+<section id="services">
+    <h2>Our Massage Services</h2>
+
+    <div class="services">
+
+        <div class="service">
+            <h3>Deep Tissue</h3>
+            <p>$50 / 1 hour</p>
+            <p>$90 / 2 hours</p>
+        </div>
+
+        <div class="service">
+            <h3>Hot Stone</h3>
+            <p>$50 / 1 hour</p>
+            <p>$90 / 2 hours</p>
+        </div>
+
+        <div class="service">
+            <h3>Aromatherapy</h3>
+            <p>$50 / 1 hour</p>
+            <p>$85 / 2 hours</p>
+        </div>
+
+        <div class="service">
+            <h3>Swedish</h3>
+            <p>$50 / 1 hour</p>
+            <p>$100 / 2 hours</p>
+        </div>
+
+        <div class="service">
+            <h3>Relaxation</h3>
+            <p>$65 / 1 hour</p>
+        </div>
+
+        <div class="service">
+            <h3>Half Body</h3>
+            <p>$65 per session</p>
+        </div>
+
+        <div class="service">
+            <h3>Athletic Massage</h3>
+            <p>$85 per session</p>
+        </div>
+
+        <div class="service">
+            <h3>Reflexology</h3>
+            <p>$50 / 1 hour</p>
+            <p>$100 / 1.5 hours</p>
+        </div>
+
+        <div class="service">
+            <h3>Body Scrub</h3>
+            <p>$75 / 1 hour</p>
+        </div>
+
+        <div class="service">
+            <h3>Traditional Body Scrub</h3>
+            <p>$60 / 1 hour</p>
+        </div>
+
+        <div class="service">
+            <h3>Detox Body Wrap</h3>
+            <p>$70 / 1 hour</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="booking">
+    <h2>Book an Appointment</h2>
+
+    <div class="booking">
+
+        <p>
+            Complete the form below to request your
+            preferred appointment.
+        </p>
+
+        <form id="bookingForm">
+
+            <label for="name">Full Name *</label>
+            <input id="name" name="name"
+                   type="text" required>
+
+            <label for="phone">Phone Number *</label>
+            <input id="phone" name="phone"
+                   type="tel" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" name="email"
+                   type="email">
+
+            <label for="service">Choose Your Service *</label>
+            <select id="service" name="service" required>
+                <option value="">Select a massage</option>
+                <option>Deep Tissue</option>
+                <option>Hot Stone</option>
+                <option>Aromatherapy</option>
+                <option>Swedish</option>
+                <option>Relaxation</option>
+                <option>Half Body</option>
+                <option>Athletic Massage</option>
+                <option>Reflexology</option>
+                <option>Body Scrub</option>
+                <option>Traditional Body Scrub</option>
+                <option>Detox Body Wrap</option>
+            </select>
+
+            <label for="duration">Session Duration *</label>
+            <select id="duration" name="duration" required>
+                <option value="">Choose duration</option>
+                <option>1 hour</option>
+                <option>1.5 hours</option>
+                <option>2 hours</option>
+            </select>
+
+            <label for="date">Preferred Date *</label>
+            <input id="date" name="date"
+                   type="date" required>
+
+            <label for="time">Preferred Time *</label>
+            <input id="time" name="time"
+                   type="time" required>
+
+            <label for="location">Appointment Location</label>
+            <input id="location" name="location"
+                   type="text"
+                   placeholder="Enter your preferred location">
+
+            <label for="notes">Additional Information</label>
+            <textarea id="notes" name="notes"
+                placeholder="Tell us about your preferences"></textarea>
+
+            <div class="notice">
+                <strong>Booking Deposit</strong><br>
+                A 30% deposit is required to secure your
+                appointment. Please wait for confirmation
+                and verified payment instructions before paying.
+            </div>
+
+            <button class="button" type="submit">
+                SUBMIT BOOKING REQUEST
+            </button>
+
+        </form>
+
+        <p id="message" style="margin-top:15px;"></p>
+
+    </div>
+</section>
+
+<div class="contact">
+    <h2>Contact Isabella Massage</h2>
+    <p>Call or text: +1 313-604-4780</p>
+    <p>We look forward to serving you!</p>
+</div>
+
+<footer>
+    &copy; <span id="year"></span> Isabella Massage.
+    All rights reserved.
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+    new Date().getFullYear();
+
+const dateInput = document.getElementById("date");
+
+const today = new Date();
+const localToday = new Date(
+    today.getTime() - today.getTimezoneOffset() * 60000
+).toISOString().split("T")[0];
+
+dateInput.min = localToday;
+
+document.getElementById("bookingForm")
+.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    document.getElementById("message").textContent =
+        "Your form is ready, but online booking is not connected yet. Please contact Isabella Massage at +1 313-604-4780 to arrange your appointment.";
+
+});
+</script>
+
+</body>
+</html>
